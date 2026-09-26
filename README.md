@@ -42,4 +42,3 @@ O notebook configura o Keras para usar o PyTorch como backend. A base de dados �
 - `requirements.txt`: dependências necessárias para reprodução.
 
 > Este projeto tem finalidade exclusivamente educacional. O modelo não deve ser usado para decisões médicas.
-
