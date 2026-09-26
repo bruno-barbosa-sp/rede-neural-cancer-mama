@@ -2,7 +2,9 @@
 
 Projeto da disciplina **Matemática para Ciência de Dados**, desenvolvido por **Bruno Aparecido Barbosa**.
 
-O notebook adapta o fluxo do arquivo `exemplo4.py` para a base Breast Cancer Wisconsin, disponível no `scikit-learn`. A rede foi implementada com Keras e possui duas camadas ocultas:
+O notebook o arquivo `exemplo4.py` para a base Breast Cancer Wisconsin, disponível no `scikit-learn`. 
+
+A rede foi implementada com Keras e possui duas camadas ocultas:
 
 ```text
 30 atributos -> 16 neurônios (ReLU) -> 8 neurônios (ReLU) -> 1 neurônio (sigmoide)
@@ -36,9 +38,7 @@ O notebook configura o Keras para usar o PyTorch como backend. A base de dados �
 ## Arquivos
 
 - `relatorio_rede_neural.ipynb`: relatório e implementação completa;
-- `arquitetura_rede.png`: diagrama da arquitetura, também gerado pelo notebook;
+- `arquitetura_rede.png`: diagrama da arquitetura;
 - `historico_treinamento.png`: curvas de perda e acurácia;
 - `matriz_confusao.png`: matriz de confusão no conjunto de teste;
 - `requirements.txt`: dependências necessárias para reprodução.
-
-> Este projeto tem finalidade exclusivamente educacional. O modelo não deve ser usado para decisões médicas.
